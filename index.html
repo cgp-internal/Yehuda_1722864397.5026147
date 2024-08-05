@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations Demo</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>CSS Animations Demo</h1>
+    <p>Welcome to our CSS animations demo page! Below, you'll find various animation techniques showcased in action.</p>
+    <section class="animation-container">
+        <h2>Fade In Animation</h2>
+        <button class="demo-button">Toggle Fade In</button>
+        <div class="fade-in animated-element">Fade In Animation</div>
+        <input type="range" class="duration-slider" min="0" max="10" value="2"> Animation Duration (s)
+        <input type="range" class="delay-slider" min="0" max="10" value="0"> Animation Delay (s)
+        <input type="range" class="iteration-slider" min="1" max="10" value="1"> Animation Iterations
+        <input type="checkbox" class="fill-mode-toggle"> Fill Mode: Forwards/Backwards
+    </section>
+    <section class="animation-container">
+        <h2>Spin Animation</h2>
+        <button class="demo-button">Toggle Spin</button>
+        <div class="spin animated-element">Spin Animation</div>
+        <input type="range" class="duration-slider" min="0" max="10" value="3"> Animation Duration (s)
+        <input type="range" class="delay-slider" min="0" max="10" value="0"> Animation Delay (s)
+        <input type="range" class="iteration-slider" min="1" max="10" value="infinite"> Animation Iterations
+        <input type="checkbox" class="fill-mode-toggle"> Fill Mode: Forwards/Backwards
+    </section>
+    <section class="animation-container">
+        <h2>Bounce Animation</h2>
+        <button class="demo-button">Toggle Bounce</button>
+        <div class="bounce animated-element">Bounce Animation</div>
+        <input type="range" class="duration-slider" min="0" max="10" value="2"> Animation Duration (s)
+        <input type="range" class="delay-slider" min="0" max="10" value="0"> Animation Delay (s)
+        <input type="range" class="iteration-slider" min="1" max="10" value="infinite"> Animation Iterations
+        <input type="checkbox" class="fill-mode-toggle"> Fill Mode: Forwards/Backwards
+    </section>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
